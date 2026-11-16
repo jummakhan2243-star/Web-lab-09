@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space News Feed | Web Engineering Lab 09</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Space News Feed</h1>
+    <p>Live articles fetched from the Spaceflight News API</p>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search news (e.g. NASA, Mars, SpaceX)">
+      <button type="submit">Search</button>
+      <button type="button" id="reset-btn">Latest</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="status"></p>
+    <section id="news" class="news-grid"></section>
+  </main>
+
+  <footer>Web Engineering Lab 09 &middot; Data: api.spaceflightnewsapi.net</footer>
+  <script src="script.js"></script>
+</body>
+</html>
